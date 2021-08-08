@@ -1,10 +1,6 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Executables
-*.exe
-*.out
-*.app
+__Previews/
+History/
+* Logs*
+*.DSNlck
+*.step
+Status Report.Txt
