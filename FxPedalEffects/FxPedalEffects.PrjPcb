@@ -55,6 +55,23 @@ GenerateClassCluster=0
 DocumentUniqueId=LANMVEMQ
 
 [Document2]
+DocumentPath=MCU.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=CVREFRLG
+
+[Document3]
 DocumentPath=FxPedalEffects.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
