@@ -12,7 +12,7 @@ SeparateFolders=0
 TemplateLocationPath=
 PinSwapBy_Netlabel=1
 PinSwapBy_Pin=1
-AllowPortNetNames=0
+AllowPortNetNames=1
 AllowSheetEntryNetNames=1
 AppendSheetNumberToLocalNets=0
 NetlistSinglePinNets=0
@@ -24,6 +24,7 @@ ReorderDocumentsOnCompile=1
 NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
 AutoSheetNumbering=0
+AutoCrossReferences=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
@@ -46,7 +47,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -63,7 +64,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -89,6 +90,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VYFMNQMM
+
+[Document4]
+DocumentPath=Analogue.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=2
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=JCHENGLX
 
 [Configuration1]
 Name=Sources
@@ -1034,10 +1052,16 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=Connectors.SchLib
+ComponentDesignItemID0=TS Audio Jack 6.3mm
+ComponentSymbolReference0=TS Audio Jack 6.3mm
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1051,12 +1075,126 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Category
+ParameterUpdate0=1
+ParameterName1=Color
+ParameterUpdate1=1
+ParameterName2=Comment
+ParameterUpdate2=1
+ParameterName3=Component Kind
+ParameterUpdate3=1
+ParameterName4=ComponentLink1Description
+ParameterUpdate4=1
+ParameterName5=ComponentLink1URL
+ParameterUpdate5=1
+ParameterName6=Contact Material
+ParameterUpdate6=1
+ParameterName7=Contact Plating
+ParameterUpdate7=1
+ParameterName8=Description
+ParameterUpdate8=1
+ParameterName9=Gender
+ParameterUpdate9=1
+ParameterName10=Housing Material
+ParameterUpdate10=1
+ParameterName11=Library Reference
+ParameterUpdate11=1
+ParameterName12=Manufacturer
+ParameterUpdate12=1
+ParameterName13=Manufacturer Part Number
+ParameterUpdate13=1
+ParameterName14=Max Current Rating
+ParameterUpdate14=1
+ParameterName15=Max Operating Temperature
+ParameterUpdate15=1
+ParameterName16=Min Operating Temperature
+ParameterUpdate16=1
+ParameterName17=Mount
+ParameterUpdate17=1
+ParameterName18=Number of Contacts
+ParameterUpdate18=1
+ParameterName19=Number of Pins
+ParameterUpdate19=1
+ParameterName20=Number of Ports
+ParameterUpdate20=1
+ParameterName21=Number of Terminals/Pins
+ParameterUpdate21=1
+ParameterName22=Orientation
+ParameterUpdate22=1
+ParameterName23=Package Quantity
+ParameterUpdate23=1
+ParameterName24=Pricing 1
+ParameterUpdate24=1
+ParameterName25=RoHS
+ParameterUpdate25=1
+ParameterName26=RoHS Compliant
+ParameterUpdate26=1
+ParameterName27=Series
+ParameterUpdate27=1
+ParameterName28=Stock 1
+ParameterUpdate28=1
+ParameterName29=Supplier 1
+ParameterUpdate29=1
+ParameterName30=Supplier Part Number 1
+ParameterUpdate30=1
+ParameterName31=Termination
+ParameterUpdate31=1
+ParameterName32=Voltage Rating
+ParameterUpdate32=1
+ParameterName33=Weight
+ParameterUpdate33=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=NMJ4HCD2
+ModelUpdate0=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+
+[NetInfos]
+Net1=NetName=3.3V|NetColor=clRed
+Net2=NetName=5VA|NetColor=clRed
+Net3=NetName=9V|NetColor=clRed
+Net4=NetName=AUDIO_IN|NetColor=clYellow
+Net5=NetName=AUDIO_OUT|NetColor=clYellow
+Net6=NetName=CODEC_IN_L|NetColor=clYellow
+Net7=NetName=CODEC_IN_R|NetColor=clYellow
+Net8=NetName=CODEC_OUT_L|NetColor=clYellow
+Net9=NetName=CODEC_OUT_R|NetColor=clYellow
+Net10=NetName=I2S_BCLK|NetColor=$00C6853D
+Net11=NetName=I2S_MCLK|NetColor=$00C6853D
+Net12=NetName=I2S_SDIN|NetColor=$00C6853D
+Net13=NetName=I2S_SDOUT|NetColor=$00C6853D
+Net14=NetName=I2S_WCLK|NetColor=$00C6853D
+Net15=NetName=IN_BUFF_L|NetColor=clYellow
+Net16=NetName=IN_BUFF-_L|NetColor=clYellow
+Net17=NetName=IN_BUFF+_L|NetColor=clYellow
+Net18=NetName=IN_FILT_L|NetColor=clYellow
+Net19=NetName=IN_RF_L|NetColor=clYellow
+Net20=NetName=N00000|NetColor=$00C6853D
+Net21=NetName=NetC?_1|NetColor=clYellow
+Net22=NetName=NetC?_2|NetColor=clYellow
+Net23=NetName=NetIC201_1|NetColor=$00C6853D
+Net24=NetName=NetIC201_10|NetColor=clBlack
+Net25=NetName=NetIC201_2|NetColor=$00C6853D
+Net26=NetName=NetIC201_3|NetColor=$00C6853D
+Net27=NetName=NetIC201_4|NetColor=$00C6853D
+Net28=NetName=NetIC201_7|NetColor=$00C6853D
+Net29=NetName=NetIC201_9|NetColor=clBlack
+Net30=NetName=NetJ?_4|NetColor=clYellow
+Net31=NetName=NetR?_1|NetColor=clYellow
+Net32=NetName=NetU?_1|NetColor=clYellow
+Net33=NetName=OUT_BIAS_L|NetColor=clYellow
+Net34=NetName=OUT_BUFF-_L|NetColor=clYellow
+Net35=NetName=OUT_BUFF+_L|NetColor=clYellow
+Net36=NetName=OUT_FILT_L|NetColor=clYellow
+Net37=NetName=OUT_RC_L|NetColor=clYellow
+Net38=NetName=SD|NetColor=$00E8864A
+Net39=NetName=VREF|NetColor=clFuchsia
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
