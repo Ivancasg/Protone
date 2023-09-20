@@ -1211,7 +1211,8 @@ Net35=NetName=OUT_BUFF+_L|NetColor=clYellow
 Net36=NetName=OUT_FILT_L|NetColor=clYellow
 Net37=NetName=OUT_RC_L|NetColor=clYellow
 Net38=NetName=SD|NetColor=$00E8864A
-Net39=NetName=VREF|NetColor=clFuchsia
+Net39=NetName=VCA|NetColor=clRed
+Net40=NetName=VREF|NetColor=clFuchsia
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
