@@ -2,3 +2,4 @@ Record=TopLevelDocument|FileName=[1] Power Supply.SchDoc|SheetNumber=
 Record=NoMainPathDocument|SourceDocument=[1] Power Supply.SchDoc|FileName=[2] Analog Front-End.SchDoc|SheetNumber= 
 Record=NoMainPathDocument|SourceDocument=[1] Power Supply.SchDoc|FileName=[3] Audio Codec.SchDoc|SheetNumber= 
 Record=NoMainPathDocument|SourceDocument=[1] Power Supply.SchDoc|FileName=[4] MCU.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=[1] Power Supply.SchDoc|FileName=[5] Connectors.SchDoc|SheetNumber= 
